@@ -141,6 +141,15 @@ div#sidebar {
     padding:0px 0px 0px 0px;
 }
 
+div#sidebar li.current_page_item a {
+    color: #008cff;
+    text-decoration:none;
+}
+
+div#sidebar li.current_page_item a:after {
+    content:"]"
+}
+
 div#content {
     width:auto;
     margin-left: 222px;
