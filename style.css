@@ -114,22 +114,35 @@ div#page {
 /*div {
     border:1px solid blue;
 }
-*/
-/* header */
+
+/**********
+ * header *
+ **********/
 div#header {
     position:relative;
     font-weight:normal;
     font-size:300%;
     height:150px;
     margin:0px 0px 0px 0px;
+    border-bottom: 1px solid #000; /*#1B1B1B;*/
+}
+div#logo {
+    border-bottom: 1px solid #000; /*#1B1B1B;*/
 }
 
-/* main body setup */
+div#logo h1 a {
+    color: #f5f4f5;
+    text-decoration:none;
+}
 
-div#middle {
-    width:auto;
-    margin:0px 0px 0px 0px;
-    clear:both;
+div#header ul.ul-tags a:hover {
+    color: #008cff;
+    text-decoration:none;
+
+}
+div#header ul.ul-tags {
+    color: #f5f4f5;
+    border-top: 1px solid #707070;
 }
 
 /* menu */
