@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="sidebar_and_content">
 <div id="sidebar">
 <?php get_menu(); ?>
 </div>
@@ -30,4 +31,6 @@
 	</div>
 	<!--/content -->
 
+</div>
+</div>
 <?php get_footer(); ?>
