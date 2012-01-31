@@ -167,3 +167,10 @@ li.iconOnly {
     display: inline;
 }
 
+/**************
+ * blog entry *
+ **************/
+div.entry{
+    color: #c4c3c4;
+}
+
