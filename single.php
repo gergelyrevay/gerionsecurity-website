@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="sidebar_and_content">
 <?php get_sidebar(); ?>
 
 	<div id="content">
@@ -7,11 +8,12 @@
 		<?php while (have_posts()) : the_post(); ?>
 
 		<div class="post">
-			<div class="post-title">
-				<h2><?php the_title(); ?></h2>
-				<span class="post-cat"><?php the_category(', ') ?></span> 
-			</div>
-			<div class="post-date"><span class="post-month"><?php the_time('M') ?></span> <span class="post-day"><?php the_time('j') ?></span></div>
+            <div class="post-header">
+			    <div class="post-title">
+				    <?php the_title(); ?>
+			    </div>
+                        <div class="post-date"><div class="post-month"><?php the_time('F jS') ?></div><div class="post-day"><?php the_time('Y') ?></div></div>
+            </div>
 			<div class="entry">
 
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
@@ -39,5 +41,5 @@
 
 	</div>
 	<!--/content -->
-
+</div>
 <?php get_footer(); ?>

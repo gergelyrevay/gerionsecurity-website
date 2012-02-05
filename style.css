@@ -132,17 +132,36 @@ div#header ul.ul-tags a:hover {
 
 }
 div#header ul.ul-tags {
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #f5f4f5;
     border-top: 1px solid #707070;
 }
 
-/* menu */
+/***********************
+ * sidebar and content *
+ ***********************/
+div#sidebar_and_content {
+    border-top: 1px solid #707070;
+    padding-top: 20px;
+}
+
+/***********
+ * sidebar *
+ ***********/
 div#sidebar {
     width:222px;
     position:relative;
-    margin-top: 50px;
     float:left;
     padding:0px 0px 0px 0px;
+    border-right: 1px solid #707070;
+}
+div#sidebar-double-wrapper {
+    width:221px;
+    position:relative;
+    float:left;
+    padding:0px 0px 0px 0px;
+    border-right: 1px solid #000;
 }
 
 div#sidebar li.current_page_item a {
