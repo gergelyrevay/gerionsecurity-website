@@ -206,3 +206,10 @@ div.entry{
     color: #c4c3c4;
 }
 
+/*********************
+ * syntaxhighlighter *
+ *********************/
+div.syntaxhighlighter {
+    background-color: #262626;
+}
+
