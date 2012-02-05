@@ -173,6 +173,10 @@ div#sidebar li.current_page_item a:after {
     content:"]"
 }
 
+div#sidebar .page_item{
+    font-size:xx-large;
+    margin-bottom:20px;
+}
 
 /***********
  * content *
