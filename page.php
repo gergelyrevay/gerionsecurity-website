@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 <div id="sidebar_and_content">
 <div id="sidebar">
+<div id="sidebar-double-wrapper">
 <?php get_menu(); ?>
+</div>
 </div>
 
 	<div id="content">
@@ -10,8 +12,6 @@
 		<?php while (have_posts()) : the_post(); ?>
 
 		<div class="post">
-
-			<h2><?php the_title(); ?></h2>
 
 			<div class="entry">
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
@@ -31,6 +31,5 @@
 	</div>
 	<!--/content -->
 
-</div>
 </div>
 <?php get_footer(); ?>
