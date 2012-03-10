@@ -185,7 +185,11 @@ input#searchsubmit {
  /*   width: 22px;*/
 }
 
-input#search_input{
+input#search_input,
+div#respond input#author,
+div#respond input#email,
+div#respond input#url,
+div#respond textarea#comment{
     height: 20px;
     width: 150px;
     -moz-box-shadow:    inset 0 0 8px #000000;
@@ -259,7 +263,131 @@ div.post-date {
     margin-right: -10px;
     background-color: #008cff;
     color: #000;
+    width: 110px;
+    float: right;
+    display: block;
+    text-align: center; 
+    -moz-box-shadow:    1px 1px 0px 0px #000;
+    -webkit-box-shadow: 1px 1px 0px 0px #000;
+    box-shadow:         1px 1px 0px 0px #000;
+}
+
+/************
+ * comments *
+ ************/
+
+li.comment {
+    color: #c4c3c4;
+    font-weight: normal;
+    list-style-type: none;
+    border-bottom: 1px solid #505050;
+}
+
+div.comment-author{
+    width: 500px; 
+    float: left;
+    display: inline;
+    font-weight:normal;
+    font-size:x-large;
+    padding-bottom: 15px;
+    
+}
+div.comment-meta a{
+    margin-left: 10px;
+    margin-right: -10px;
+    background-color: #008cff;
+    color: #000;
     width: 100px;
+    float: right;
+    display: inline;
+    text-align: center; 
+    -moz-box-shadow:    1px 1px 0px 0px #000;
+    -webkit-box-shadow: 1px 1px 0px 0px #000;
+    box-shadow:         1px 1px 0px 0px #000;
+}
+
+div#respond input#author,
+div#respond input#email,
+div#respond input#url
+{
+    width: 300px;
+}
+
+div#respond textarea#comment{
+    height: 250px;
+    width: 600px;
+}
+
+form#commentform label{
+    width: 70px;
+    float: left;
+}
+
+form#commentform p.comment-form-url label{
+    width: 80px;
+}
+
+p.comment-form-comment label{
+    display: none;
+}
+
+span.required {
+    float: left;
+    width: 10px;
+}
+
+p.form-allowed-tags {
+    display: none;
+}
+
+.recaptchatable {
+    background-color: #c4c3c4;
+    border: none;
+}
+
+div#recaptcha-submit-btn-area input#submit{
+    margin-top: 20px;
+    background-color: #008cff;
+    border: 1px solid #008cff;
+    height: 20px;
+    width: 150px;
+    margin-left: 225px;
+}
+
+/****************
+ * Recent Posts *
+ ****************/
+
+ul.get_posts_class li{
+    display: block;
+    width: 600px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+span.post_title_class {
+    width: 400px;
+    color: red;
+}
+
+span.post_author_class {
+    display:block;
+    width: 500px;
+    color: green;
+}
+
+span.post_excerpt_class {
+    display:block;
+    width: 500px;
+    color: blue;
+}
+
+span.post_date_class {
+    margin-left: 10px;
+    margin-right: -10px;
+    background-color: #008cff;
+    color: #000;
+    width: 110px;
     float: right;
     display: block;
     text-align: center; 
