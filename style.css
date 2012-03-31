@@ -340,6 +340,10 @@ div.post-date {
     -moz-box-shadow:    1px 1px 3px 0px #000;
     -webkit-box-shadow: 1px 1px 3px 0px #000;
     box-shadow:         1px 1px 3px 0px #000;
+    -moz-border-radius:    4px  4px 4px 4px;
+    -webkit-border-radius: 4px  4px 4px 4px;
+    border-raduis:         4px  4px 4px 4px;
+}
 
 div.navigation {
     margin-bottom: 20px;
@@ -397,6 +401,10 @@ div.comment-meta a{
     -moz-box-shadow:    1px 1px 3px 0px #000;
     -webkit-box-shadow: 1px 1px 3px 0px #000;
     box-shadow:         1px 1px 3px 0px #000;
+    -moz-border-radius:    4px  4px 4px 4px;
+    -webkit-border-radius: 5px  5px 5px 5px;
+    border-raduis:         5px  5px 5px 5px;
+
 }
 
 div#respond input#author,
