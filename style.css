@@ -206,14 +206,14 @@ div#sidebar_and_content {
  * sidebar *
  ***********/
 div#sidebar {
-    width:222px;
+    width:200px;
     position:relative;
     float:left;
     padding:0px 0px 0px 0px;
-    border-right: 1px solid #707070;
+    border-right: 1px solid #444444;
 }
 div#sidebar-double-wrapper {
-    width:221px;
+    width:199px;
     position:relative;
     float:left;
     padding:0px 0px 0px 0px;
