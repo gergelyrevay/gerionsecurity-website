@@ -376,6 +376,7 @@ div.comment-author{
     font-weight:normal;
     font-size:x-large;
     padding-bottom: 15px;
+    color: #6c6b6b;
     
 }
 div.comment-meta a{
@@ -468,12 +469,15 @@ ul.get_posts_class li{
 }
 
 span.post_title_class {
+    font-size: large; 
     width: 400px;
     color: #2897c1;
 }
 
 span.post_author_class {
+    font-size: x-small;
     display:block;
+    margin-top: -3px;
     width: 500px;
     color: #6c6b6b;
 }
