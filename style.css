@@ -321,6 +321,17 @@ div.post-date {
     margin-right: -10px;
     /*background-color: #008cff;*/
     background-color: #7a7a7a;
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7a7a7a), to(#8e8e8e));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #8e8e8e, #7a7a7a);
     color: #000;
     width: 110px;
     float: right;
@@ -355,6 +366,17 @@ div.comment-meta a{
     margin-left: 10px;
     margin-right: -10px;
     background-color: #7a7a7a;
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7a7a7a), to(#8e8e8e));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #8e8e8e, #7a7a7a);
     color: #000;
     width: 100px;
     float: right;
@@ -451,6 +473,25 @@ span.post_date_class {
     width: 110px;
     float: right;
     display: block;
+    text-align: center;
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7a7a7a), to(#8e8e8e));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #8e8e8e, #7a7a7a);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #8e8e8e, #7a7a7a); 
+    -moz-box-shadow:    1px 1px 3px 0px #000;
+    -webkit-box-shadow: 1px 1px 3px 0px #000;
+    box-shadow:         1px 1px 3px 0px #000;
+    -moz-border-radius:    4px  4px 4px 4px;
+    -webkit-border-radius: 5px  5px 5px 5px;
+    border-raduis:         5px  5px 5px 5px;
+}
     text-align: center; 
     -moz-box-shadow:    1px 1px 0px 0px #000;
     -webkit-box-shadow: 1px 1px 0px 0px #000;
