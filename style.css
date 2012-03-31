@@ -337,9 +337,9 @@ div.post-date {
     float: right;
     display: block;
     text-align: center; 
-    -moz-box-shadow:    1px 1px 0px 0px #000;
-    -webkit-box-shadow: 1px 1px 0px 0px #000;
-    box-shadow:         1px 1px 0px 0px #000;
+    -moz-box-shadow:    1px 1px 3px 0px #000;
+    -webkit-box-shadow: 1px 1px 3px 0px #000;
+    box-shadow:         1px 1px 3px 0px #000;
 
 div.navigation {
     margin-bottom: 20px;
@@ -394,9 +394,9 @@ div.comment-meta a{
     float: right;
     display: inline;
     text-align: center; 
-    -moz-box-shadow:    1px 1px 0px 0px #000;
-    -webkit-box-shadow: 1px 1px 0px 0px #000;
-    box-shadow:         1px 1px 0px 0px #000;
+    -moz-box-shadow:    1px 1px 3px 0px #000;
+    -webkit-box-shadow: 1px 1px 3px 0px #000;
+    box-shadow:         1px 1px 3px 0px #000;
 }
 
 div#respond input#author,
@@ -504,10 +504,7 @@ span.post_date_class {
     -webkit-border-radius: 5px  5px 5px 5px;
     border-raduis:         5px  5px 5px 5px;
 }
-    text-align: center; 
-    -moz-box-shadow:    1px 1px 0px 0px #000;
-    -webkit-box-shadow: 1px 1px 0px 0px #000;
-    box-shadow:         1px 1px 0px 0px #000;
+
 /*************** 
  * share icons *
  **************/
