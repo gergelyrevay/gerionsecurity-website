@@ -24,17 +24,17 @@
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
 			</div>
+		<div class="navigation"> 
+			<span class="previous-entries"><?php previous_post_link('%link', '« prev post') ?></span>
+			<span class="next-entries"><?php next_post_link('%link', 'next post »') ?></span> 
+		</div>
+
 			
 			<?php comments_template(); ?>
 			
 		</div>
 
 		<?php endwhile; ?>
-
-		<div class="navigation"> 
-			<span class="previous-entries"><?php previous_post_link(' %link') ?></span>
-			<span class="next-entries"><?php next_post_link('%link') ?></span> 
-		</div>
 
 	<?php else : ?>
 
