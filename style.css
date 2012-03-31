@@ -266,7 +266,7 @@ div#respond textarea#comment{
  ***********/
 div#content {
     width:auto;
-    margin-left: 222px;
+    margin-left: 200px;
     padding:0px 0px 0px 10px;
     z-index:100;
     position:relative;
@@ -276,6 +276,7 @@ input,
 textarea{
     border:none;
 }
+
 li.iconOnly {
     display: inline;
 }
@@ -306,18 +307,14 @@ div.entry {
 }
 
 div.post-header{
-    width: 638px;
+    width: 658px;
     height: 50px;
-    
 }
 
 div.post-title{
-    width: 528px; 
+    width: 548px; 
     float: left;
     display: block;
-    font-weight:normal;
-    font-size:x-large;
-    
 }
 div.post-date {
     margin-left: 10px;
@@ -346,7 +343,7 @@ li.comment {
 }
 
 div.comment-author{
-    width: 500px; 
+    width: 530px; 
     float: left;
     display: inline;
     font-weight:normal;
@@ -422,7 +419,8 @@ div#recaptcha-submit-btn-area input#submit{
 
 ul.get_posts_class li{
     display: block;
-    width: 600px;
+    padding-top: 5px;
+    width: 658px;
     margin-bottom: 20px;
     float: left;
 }
