@@ -8,7 +8,6 @@ die ('Please do not load this page directly. Thanks!');
 <?php wp_list_comments(); ?>
 
 <?php else : // this is displayed if there are no comments so far ?>
-<p>No comment yet.</p>
 
 <?php endif; ?>
 <?php if(comments_open()) : ?>
