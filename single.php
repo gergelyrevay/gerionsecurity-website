@@ -6,6 +6,10 @@
 
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
+		<div class="navigation"> 
+			<span class="previous-entries"><?php previous_post_link('%link', '« prev post') ?></span>
+			<span class="next-entries"><?php next_post_link('%link', 'next post »') ?></span> 
+		</div>
 
 		<div class="post">
             <div class="post-header">
