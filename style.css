@@ -340,6 +340,18 @@ div.post-date {
     -moz-box-shadow:    1px 1px 0px 0px #000;
     -webkit-box-shadow: 1px 1px 0px 0px #000;
     box-shadow:         1px 1px 0px 0px #000;
+
+div.navigation {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+span.previous-entries {
+    float: left;
+}
+
+span.next-entries{
+    float: right;
 }
 
 /************
