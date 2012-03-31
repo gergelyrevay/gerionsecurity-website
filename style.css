@@ -7,6 +7,17 @@ Author URI: http://gerionsecurity.com/
 Version: 1.0
 Tags:
 
+
+backgroundColor: #262626;
+menuColor: #7a7a7a;
+tagCloudColor: #484848;
+theColor: #2897c1;
+blogTextColor: #d5d3d3;
+authorColor: #6c6b6b;
+mainSepLineColor: #444444;
+secondaryLineColor: #333333;
+ */
+
 */
 /* reset */
 body,
@@ -34,20 +45,46 @@ fieldset,
 img {
     border:0;
 }
+
 html {
     height:100%;
     margin-bottom:1px;
     background-color: #262626;
-    color: #797979;
+    color: #d5d3d3;;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* gray links */
 a {
-    color: #797979;
+    color: #7a7a7a;
     text-decoration:none;
 }
 
+/*link blue on hover*/
 a:hover {
-    color:#008cff;
+    color: #2897c1;
+    text-decoration:none;
+  }
+
+/* blue links */
+div.post-title a, 
+span.previous-entries a,
+span.next-entries a,
+a.more-link {
+    color: #2897c1;
+    text-decoration:none;
+    }
+/* links gray on hover */
+div.post-title a:hover, 
+span.previous-entries a:hover,
+span.next-entries a:hover,
+a.more-link:hover {
+    color: #7a7a7a;
+    text-decoration:none;
+}
+/* tagcloud links*/
+ul.ul-tags a {
+    color: #484848;
     text-decoration:none;
 }
 
@@ -127,22 +164,22 @@ div#logo h1 a {
 }
 
 div#header ul.ul-tags a:hover {
-    color: #008cff;
+    color: #2897c1;
     text-decoration:none;
 
 }
 div#header ul.ul-tags {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #f5f4f5;
-    border-top: 1px solid #707070;
+    color: #7a7a7a;
+    border-top: 1px solid #444444;
 }
 
 /***********************
  * sidebar and content *
  ***********************/
 div#sidebar_and_content {
-    border-top: 1px solid #707070;
+    border-top: 1px solid #444444;
     padding-top: 20px;
 }
 
@@ -165,7 +202,8 @@ div#sidebar-double-wrapper {
 }
 
 div#sidebar li.current_page_item a {
-    color: #008cff;
+    color: #2897c1;
+    text-shadow: 1px 1px 1px #000;
     text-decoration:none;
 }
 
@@ -179,8 +217,7 @@ div#sidebar .page_item{
 }
 
 input#searchsubmit {
-    background-color: #008cff;
-    border: 1px solid #008cff;
+    background-color: #2897c1;
     height: 20px;
  /*   width: 22px;*/
 }
@@ -197,8 +234,8 @@ div#respond textarea#comment{
     box-shadow:         inset 0 0 8px #000000;
     border: 1px solid #707070;
     background-color: #262626;
-    color:  #008cff;
-}
+    color: #2897c1;
+    }
 
 /***********
  * content *
@@ -223,7 +260,7 @@ li.iconOnly {
  * blog entry *
  **************/
 div.entry{
-    color: #c4c3c4;
+    color: #d5d3d3;
 }
 
 /*********************
@@ -241,7 +278,7 @@ div.post {
     margin-left: 20px;
 }
 div.entry {
-    border-bottom: 1px solid #505050;
+    border-bottom: 1px solid #333333;
 }
 
 div.post-header{
@@ -261,7 +298,8 @@ div.post-title{
 div.post-date {
     margin-left: 10px;
     margin-right: -10px;
-    background-color: #008cff;
+    /*background-color: #008cff;*/
+    background-color: #7a7a7a;
     color: #000;
     width: 110px;
     float: right;
@@ -280,7 +318,7 @@ li.comment {
     color: #c4c3c4;
     font-weight: normal;
     list-style-type: none;
-    border-bottom: 1px solid #505050;
+    border-bottom: 1px solid #333333; 
 }
 
 div.comment-author{
@@ -295,7 +333,7 @@ div.comment-author{
 div.comment-meta a{
     margin-left: 10px;
     margin-right: -10px;
-    background-color: #008cff;
+    background-color: #7a7a7a;
     color: #000;
     width: 100px;
     float: right;
@@ -347,8 +385,8 @@ p.form-allowed-tags {
 
 div#recaptcha-submit-btn-area input#submit{
     margin-top: 20px;
-    background-color: #008cff;
-    border: 1px solid #008cff;
+    background-color: #2897c1;
+    border: 1px solid #2897c1;
     height: 20px;
     width: 150px;
     margin-left: 225px;
@@ -367,25 +405,26 @@ ul.get_posts_class li{
 
 span.post_title_class {
     width: 400px;
-    color: red;
+    color: #2897c1;
 }
 
 span.post_author_class {
     display:block;
     width: 500px;
-    color: green;
+    color: #6c6b6b;
 }
 
 span.post_excerpt_class {
     display:block;
     width: 500px;
-    color: blue;
+    color: #d5d3d3;
 }
 
 span.post_date_class {
     margin-left: 10px;
     margin-right: -10px;
-    background-color: #008cff;
+    background-color: #7a7a7a;
+    padding: 2px 0px 2px 0px;
     color: #000;
     width: 110px;
     float: right;
