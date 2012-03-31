@@ -143,6 +143,26 @@ div#middle {
 }
 
 /**********
+ * titles *
+ **********/
+div.post-title a,
+div.post-title,
+div.title,
+h3#reply-title,
+h3#comments_head {
+    line-height: 100%;
+    color: #2897c1;
+    font-weight:normal;
+    font-size:x-large;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+div.title#welcome {
+    border-bottom: 1px solid #333333;
+}
+
+/**********
  * header *
  **********/
 div#header {
