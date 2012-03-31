@@ -29,7 +29,7 @@
         <div id="header">
          <!-- logo -->
             <div id="logo">
-                <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+                <h1><a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_bloginfo('template_url').'/images/logo.png'; ?>"/ ></a></h1>
             </div>
          <!-- / logo -->
                 <ul class="ul-tags">
