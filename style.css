@@ -168,7 +168,6 @@ div.title#welcome {
 div#header {
     position:relative;
     font-weight:normal;
-    font-size:300%;
     margin:0px 0px 0px 0px;
     border-bottom: 1px solid #000; /*#1B1B1B;*/
 }
