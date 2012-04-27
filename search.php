@@ -7,7 +7,10 @@
 </div>
 
 	<div id="content">
-    <?php _e( 'Search Results for: ', 'your-theme' ); ?><span><?php the_search_query(); ?></span>
+        <div class='shareinpost'>
+        <?php my_share_links(); ?>
+        </div>
+<?php _e( 'Search Results for: ', 'your-theme' ); ?><span><?php the_search_query(); ?></span>
 <?php global $wp_query; $total_pages = $wp_query->max_num_pages; if ( $total_pages > 1 ) { ?>
                 <div class="navigation">
                         <span class="previous-entries"><?php previous_post_link('%link', '« prev post') ?></span>
