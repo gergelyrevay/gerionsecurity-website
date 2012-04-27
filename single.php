@@ -10,13 +10,11 @@
 			<span class="previous-entries"><?php previous_post_link('%link', '« prev post') ?></span>
 			<span class="next-entries"><?php next_post_link('%link', 'next post »') ?></span> 
 		</div>
-
-		<div class="post">
             <div class="post-header">
 			    <div class="post-title">
 				    <?php the_title(); ?>
 			    </div>
-                        <div class="post-date"><div class="post-month"><?php the_time('F jS') ?></div><div class="post-day"><?php the_time('Y') ?></div></div>
+                        <div class="post-date"><div class="post-month"><?php the_time('F jS') ?></div><div class="post-year"><?php the_time('Y') ?></div></div>
             </div>
 			<div class="entry">
 

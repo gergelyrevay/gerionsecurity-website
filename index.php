@@ -12,7 +12,7 @@
                         <div class="post-title">
 		        		<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
         		    	</div>
-                        <div class="post-date"><div class="post-month"><?php the_time('F jS') ?></div><div class="post-day"><?php the_time('Y') ?></div></div>
+                        <div class="post-date"><div class="post-month"><?php the_time('F jS') ?></div><div class="post-year"><?php the_time('Y') ?></div></div>
             </div>
 			<div class="entry">
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
