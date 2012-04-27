@@ -20,11 +20,10 @@
 		</div>
 
 		<?php endwhile; ?>
-
-		<div class="navigation"> 
-			<span class="previous-entries"><?php next_posts_link('Older Entries') ?></span>
-			<span class="next-entries"><?php previous_posts_link('Newer Entries') ?></span> 
-		</div>
+        <div class="navigation">
+                <span class="previous-entries"><?php previous_post_link('%link', '« prev post') ?></span>
+                <span class="next-entries"><?php next_post_link('%link', 'next post »') ?></span>
+        </div>
 
 	<?php else : ?>
 
