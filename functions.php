@@ -5,7 +5,7 @@ function get_menu() { ?>
             <ul id="nav">
                 <?php wp_list_pages('sort_column=menu_order&depth=1&title_li=');?>
             <li class="page_item">
-                <a id="follow-me-menu" title="" href="/wordpress/?feed=rss2">follow me</a>
+                <a id="follow-me-menu" title="" href="/?feed=rss2">follow me</a>
             </li>
             </ul>
         <?php include (TEMPLATEPATH . '/searchform.php');?>
