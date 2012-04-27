@@ -5,9 +5,9 @@
   <meta name="robots" content="index, follow" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" /> 
+  <link rel="shortcut icon" href="/favicon.ico"/>
   <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
   <!--[if lte IE 7]><link href="css/iehacks.css" rel="stylesheet" type="text/css" /><![endif]-->
-  <script type="text/javascript" src="js/jquery.js"></script>
   <!--[if IE 6]>
   <script type="text/javascript" src="js/ie6pngfix.js"></script>
   <script type="text/javascript">
