@@ -92,17 +92,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size:300%;
+    font-size:130%;
 }
 
 h2 {
-    font-size:250%;
-    text-align:left;
+    font-size:120%;
 }
 
 h3 {
-    font-weight:normal;
-    font-size:x-large;
+    font-size:110%;
 }
 
 h4 {
@@ -362,6 +360,11 @@ span.previous-entries {
 
 span.next-entries{
     float: right;
+}
+
+ul.in-post{
+    list-style-type: disc;
+    padding-left: 30px;
 }
 
 /************
