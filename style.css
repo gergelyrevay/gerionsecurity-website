@@ -119,6 +119,7 @@ ul{
     text-decoration:none;
     list-style:none;
 }
+
 /* page setup */
 body {
     position:relative;
@@ -308,6 +309,7 @@ div.post {
 }
 div.entry {
     border-bottom: 1px solid #333333;
+    margin-bottom: 10px;
 }
 
 div.post-header{
@@ -346,7 +348,7 @@ div.post-date {
     box-shadow:         1px 1px 3px 0px #000;
     -moz-border-radius:    4px  4px 4px 4px;
     -webkit-border-radius: 4px  4px 4px 4px;
-    border-raduis:         4px  4px 4px 4px;
+    border-radius:         4px  4px 4px 4px;
 }
 
 div.navigation {
@@ -415,7 +417,7 @@ div.comment-meta a{
     box-shadow:         1px 1px 3px 0px #000;
     -moz-border-radius:    4px  4px 4px 4px;
     -webkit-border-radius: 5px  5px 5px 5px;
-    border-raduis:         5px  5px 5px 5px;
+    border-radius:         5px  5px 5px 5px;
 
 }
 
@@ -470,7 +472,7 @@ div#recaptcha-submit-btn-area input#submit{
     box-shadow:         1px 1px 3px 0px #000;
     -moz-border-radius:    4px  4px 4px 4px;
     -webkit-border-radius: 5px  5px 5px 5px;
-    border-raduis:         5px  5px 5px 5px;
+    border-radius:         5px  5px 5px 5px;
 
 }
 
@@ -556,7 +558,7 @@ div.shareinpost {
     box-shadow:         -1px  -1px 0px 0px #000;
     -moz-border-radius:    5px  0px 0px 0px;
     -webkit-border-radius: 5px  0px 0px 0px;
-    border-raduis:         5px  0px 0px 0px;
+    border-radius:         5px  0px 0px 0px;
 }
 
 div#follow{
@@ -573,7 +575,7 @@ div#follow{
     box-shadow:         -1px  1px 0px 0px #000;
     -moz-border-radius:    0px  0px 0px 5px;
     -webkit-border-radius: 0px  0px 0px 5px;
-    border-raduis:         0px  0px 0px 5px;
+    border-radius:         0px  0px 0px 5px;
 }
 
 a.rss{
